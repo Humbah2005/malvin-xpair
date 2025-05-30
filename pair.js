@@ -1,5 +1,5 @@
 const PastebinAPI = require('pastebin-js'),
-pastebin = new PastebinAPI('EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL')
+pastebin = new PastebinAPI('mKoIZabR0uHqg1PCZl-Kc7M9bzSYnlo6')
 const {makeid} = require('./id');
 const express = require('express');
 const fs = require('fs');
@@ -20,13 +20,13 @@ function removeFile(FilePath){
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-        async function MALVIN_XD_PAIR_CODE() {
+        async function humbah_XD_PAIR_CODE() {
         const {
             state,
             saveCreds
         } = await useMultiFileAuthState('./temp/'+id)
      try {
-            let Pair_Code_By_Malvin_Tech = Malvin_Tech({
+            let Pair_Code_By_Malvin_Tech = bleurainz_Tech({
                 auth: {
                     creds: state.creds,
                     keys: makeCacheableSignalKeyStore(state.keys, pino({level: "fatal"}).child({level: "fatal"})),
@@ -57,21 +57,21 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Malvin_Tech.sendMessage(Pair_Code_By_Malvin_Tech.user.id, { text: 'Malvin~' + b64data });
 
                let MALVIN_XD_TEXT = `
-      MALVIN-XD V4 Sucess Scan Session 
+      bleurainz tech Sucess Scan Session 
 
-> Bot repo: Https://GitHub.com/XdKing2/MALVIN-XD 
+> Bot repo: Https://GitHub.com/Humbah2005/bleurainz 
 
-> Owner: *Malvin King*
+> Owner: *humbah*
 
-> BotName: *MALVIN XD* 
+> BotName: *humba* 
 
 
 
 *Follow support for updates*
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+https://whatsapp.com/channel/0029Vb6EJfCHLHQQGd2KGL1P
 
 
-> _Regards Malvin King_`
+> _Regards humbah_`
 
  await Pair_Code_By_Malvin_Tech.sendMessage(Pair_Code_By_Malvin_Tech.user.id,{text:MALVIN_XD_TEXT},{quoted:session})
  
